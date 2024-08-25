@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityDemo1/19_FileThatImportsTheStructAbove.sol": "Todos"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityDemo1/18_StructDeclaration.sol": {
+			"keccak256": "0xe4fd8ebb2c4dc012b862fb31fa531731e9630dd5e80af392afb1cb2ff5f200e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1be1d91625c53d29c29c83fdab835f9677c80f197da15e17954c630ce0242906",
+				"dweb:/ipfs/Qmd4491NoHxDYKESWiHp9Qx8LaV3hFQe3NG6G28mG4hWFV"
+			]
+		},
+		"solidityDemo1/19_FileThatImportsTheStructAbove.sol": {
+			"keccak256": "0x1da82de8f87388c63c4e09ce1891f0d0ff9e0302e75f39484cce269b986945ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f7635db33a351f52561b657b52cd519d85a566e133e578187e48fe521d4852a6",
+				"dweb:/ipfs/QmYAYncgfDixmXvG7XuA4DpMK88RRs2LGy7rtYjRHUeEk3"
+			]
+		}
+	},
+	"version": 1
+}

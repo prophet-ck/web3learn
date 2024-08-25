@@ -6,47 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "isOneEther",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmount",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "InsufficientBalance",
+				"type": "error"
 			},
 			{
 				"inputs": [],
-				"name": "isOneGwei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isOneWei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "oneEther",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,28 +36,48 @@
 			},
 			{
 				"inputs": [],
-				"name": "oneGwei",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"name": "testAssert",
+				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "oneWei",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_withdrawAmount",
 						"type": "uint256"
 					}
 				],
+				"name": "testCustomError",
+				"outputs": [],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "testRequire",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "testRevert",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -97,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityDemo1/8_EtherAndWei.sol": "EtherUnits"
+			"solidityDemo1/24_Error.sol": "Error"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,12 +108,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityDemo1/8_EtherAndWei.sol": {
-			"keccak256": "0xf4412449a1a1702d0c855fe6943f056d71458e153f01423b93e0c5a3c9508a91",
+		"solidityDemo1/24_Error.sol": {
+			"keccak256": "0x0e9a003c54a939d79aca82f09563d5d88dcc5a72f62d213b8bd1f0198c9842e8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4734bb587c2ffefe1c523ccde25f3aa3090403b1eda04eaa67fbab958187cd4e",
-				"dweb:/ipfs/QmU7CJB1L598dSGkRd3vurUbbcy13NP11tHvqgM18UcAvT"
+				"bzz-raw://0c67abaf44c0bda31da7737ef560e74d15b56e2c7dfd5013b5ca6471117c860b",
+				"dweb:/ipfs/QmPKY7McWKAtVCaE4SgfsQ3hvLDpJ7q4MfP69MxPNujukb"
 			]
 		}
 	},

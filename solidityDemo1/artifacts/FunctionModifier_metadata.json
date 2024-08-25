@@ -7,64 +7,43 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "isOneEther",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "isOneGwei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isOneWei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "oneEther",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "oneGwei",
+				"name": "locked",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -72,7 +51,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "oneWei",
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -97,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityDemo1/8_EtherAndWei.sol": "EtherUnits"
+			"solidityDemo1/26_FunctionModifier.sol": "FunctionModifier"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityDemo1/8_EtherAndWei.sol": {
-			"keccak256": "0xf4412449a1a1702d0c855fe6943f056d71458e153f01423b93e0c5a3c9508a91",
+		"solidityDemo1/26_FunctionModifier.sol": {
+			"keccak256": "0xc0f9677ab2a51298354f0809c0a46b9e5c068f76cb508080bf0774846a3c6709",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4734bb587c2ffefe1c523ccde25f3aa3090403b1eda04eaa67fbab958187cd4e",
-				"dweb:/ipfs/QmU7CJB1L598dSGkRd3vurUbbcy13NP11tHvqgM18UcAvT"
+				"bzz-raw://cddfd2cfcd5e16e0d067f1bf853fb4a2ee063cd7109df043f9a902bf8dacc25e",
+				"dweb:/ipfs/QmS2v7TgVxBpoJtizfzkt7XtJjb9KGeeCrgY1AeybkMsDv"
 			]
 		}
 	},

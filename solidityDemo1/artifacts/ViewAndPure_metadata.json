@@ -6,47 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "isOneEther",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "j",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "isOneGwei",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isOneWei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "oneEther",
+				"name": "addToX",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,20 +50,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "oneGwei",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "oneWei",
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -97,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityDemo1/8_EtherAndWei.sol": "EtherUnits"
+			"solidityDemo1/23_ViewAndPureFunctions.sol": "ViewAndPure"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityDemo1/8_EtherAndWei.sol": {
-			"keccak256": "0xf4412449a1a1702d0c855fe6943f056d71458e153f01423b93e0c5a3c9508a91",
+		"solidityDemo1/23_ViewAndPureFunctions.sol": {
+			"keccak256": "0x17c3e2b3641171a14a60b4c44441433307196ec2bc7cd954844273fe4b040c3a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4734bb587c2ffefe1c523ccde25f3aa3090403b1eda04eaa67fbab958187cd4e",
-				"dweb:/ipfs/QmU7CJB1L598dSGkRd3vurUbbcy13NP11tHvqgM18UcAvT"
+				"bzz-raw://181b71964ea6aa361c7ccadb329ac30b730eb725f3bb13b902ebe9d62757e752",
+				"dweb:/ipfs/QmUtLCY1X5nib2vikov2GcGAHEsU5utxfRpnpR6bgCBXNf"
 			]
 		}
 	},

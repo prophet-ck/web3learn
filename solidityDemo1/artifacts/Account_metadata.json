@@ -7,46 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "isOneEther",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isOneGwei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isOneWei",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "oneEther",
+				"name": "MAX_UINT",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -59,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "oneGwei",
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -71,16 +32,29 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "oneWei",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -97,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityDemo1/8_EtherAndWei.sol": "EtherUnits"
+			"solidityDemo1/25_HereIsAnotherExample.sol": "Account"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityDemo1/8_EtherAndWei.sol": {
-			"keccak256": "0xf4412449a1a1702d0c855fe6943f056d71458e153f01423b93e0c5a3c9508a91",
+		"solidityDemo1/25_HereIsAnotherExample.sol": {
+			"keccak256": "0x7f55b926ef7585c232dfe486a87541c044b21248ca0a29b7c9553e413862ea02",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4734bb587c2ffefe1c523ccde25f3aa3090403b1eda04eaa67fbab958187cd4e",
-				"dweb:/ipfs/QmU7CJB1L598dSGkRd3vurUbbcy13NP11tHvqgM18UcAvT"
+				"bzz-raw://4fed3881f1c829c72014b143e63db45897cf0a4ef9bfed9964c23c0602ce1887",
+				"dweb:/ipfs/QmcbYHaRnzqJN3jMigGCn2J4JMb9pLr6VDeFvL61mtcAHi"
 			]
 		}
 	},
